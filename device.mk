@@ -34,3 +34,50 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Haters gonna hate..
 PRODUCT_CHARACTERISTICS := nosdcard
+
+# A/B
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    system \
+    vbmeta
+
+AB_OTA_POSTINSTALL_CONFIG += \
+    RUN_POSTINSTALL_system=true \
+    POSTINSTALL_PATH_system=system/bin/otapreopt_script \
+    FILESYSTEM_TYPE_system=ext4 \
+    POSTINSTALL_OPTIONAL_system=true
+
+PRODUCT_PACKAGES += \
+    otapreopt_script
+
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
+# Display
+PRODUCT_PACKAGES += \
+    libvulkan
+
+# Net
+PRODUCT_PACKAGES += \
+    netutils-wrapper-1.0
+
+# NFC
+PRODUCT_PACKAGES += \
+    NfcNci \
+    Tag \
+    com.android.nfc_extras
+
+# Power
+PRODUCT_PACKAGES += \
+    power.qcom:64
+
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
