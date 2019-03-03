@@ -51,7 +51,20 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_OPTIONAL_system=true
 
 PRODUCT_PACKAGES += \
-    otapreopt_script
+    otapreopt_script \
+    brillo_update_payload \
+    update_engine \
+    update_engine_sideload \
+    update_verifier
+
+PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+    bootctrl.sdm845 \
+    libcutils \
+    libgptutils \
+    libz
+
+PRODUCT_PACKAGES_DEBUG += \
+    update_engine_client
 
 # Camera
 PRODUCT_PACKAGES += \
