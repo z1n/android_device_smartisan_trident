@@ -1,0 +1,187 @@
+# ADSP modules
+vendor/lib/rfsa/adsp/dirac_resource.so
+vendor/lib/rfsa/adsp/libBeautyShot_skel.so
+vendor/lib/rfsa/adsp/libhvxMathVIO.so
+
+# Audio
+vendor/lib/hw/audio.primary.sdm845.so
+vendor/lib64/hw/audio.primary.sdm845.so
+
+# Audio ACDB
+vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Codec_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
+vendor/etc/acdbdata/adsp_avs_config.acdb
+
+# Camera
+lib/libarcsoft_beautyshot.so
+lib/libarcsoft_dualcam_refocus.so
+lib/libarcsoft_high_dynamic_range.so
+lib/libarcsoft_low_light_shot.so
+lib/libarcsoft_mpbase_sm.so
+lib/libarcsoft_picselfie_algorithm.so
+lib/libarcsoft_refocus_sm.so
+lib/libarcsoft_smart_denoise.so
+lib/libdualcameraddm.so
+vendor/lib/hw/camera.qcom.so
+vendor/lib/libSensorManagerHAL.so
+vendor/lib/libmms_gyro_vstab.so
+vendor/lib/libmms_gyro_vstab_auth.so
+vendor/lib/libmms_hal_vstab.so
+vendor/lib/libmms_warper_vstab.so
+vendor/lib/libcdsprpc.so
+
+# Camera configs
+vendor/etc/camera/camxoverridesettings.txt
+vendor/etc/camera/megvii/model
+vendor/etc/camera/sensor_denoise_table/imx363/ISO270_2944X2944.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO270_4032X2016.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO270_4032X2268.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO270_4032X3024.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO400_2944X2944.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO400_4032X2016.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO400_4032X2268.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO400_4032X3024.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO560_2944X2944.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO560_4032X2016.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO560_4032X2268.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO560_4032X3024.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO720_2944X2944.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO720_4032X2016.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO720_4032X2268.ncf
+vendor/etc/camera/sensor_denoise_table/imx363/ISO720_4032X3024.ncf
+
+# Camera firmware
+vendor/firmware/CAMERA_ICP.elf
+
+# DRM - PLAYready
+vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so
+vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so
+vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so
+vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
+
+# Fingerprint
+vendor/etc/permissions/android.hardware.fingerprint.xml
+vendor/etc/permissions/com.fingerprints.extension.xml
+vendor/framework/com.fingerprints.extension.jar
+vendor/lib/com.fingerprints.extension@1.0.so
+vendor/lib64/com.fingerprints.extension@1.0.so
+
+# Fingerprint - FPC
+vendor/bin/hw/android.hardware.biometrics.fpcfingerprint@2.1-service
+vendor/etc/init/android.hardware.biometrics.fpcfingerprint@2.1-service.rc
+
+# Fingerprint - Goodix
+vendor/bin/hw/android.hardware.biometrics.goodixfingerprint@2.1-service
+vendor/etc/init/android.hardware.biometrics.goodixfingerprint@2.1-service.rc
+vendor/lib/libgoodixfingerprintd_binder.so
+vendor/lib/libgoodixhwfingerprint.so
+vendor/lib/vendor.goodix.hardware.fingerprintextension@1.0.so
+vendor/lib64/libgoodixfingerprintd_binder.so
+vendor/lib64/libgoodixhwfingerprint.so
+vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
+
+# Fingerprint - Novatek
+vendor/bin/hw/android.hardware.biometrics.nvtfingerprint@2.1-service
+vendor/etc/init/android.hardware.biometrics.nvtfingerprint@2.1-service.rc
+vendor/lib/com.novatek.fingerprint@1.0_vendor.so
+vendor/lib/hw/nvtfingerprint.default.so
+vendor/lib64/com.novatek.fingerprint@1.0_vendor.so
+vendor/lib64/hw/nvtfingerprint.default.so
+
+# GPS
+-priv-app/com.qualcomm.location/com.qualcomm.location.apk
+-vendor/lib/libloc_api_v02.so
+-vendor/lib64/libloc_api_v02.so
+etc/permissions/com.qti.location.sdk.xml
+etc/permissions/com.qualcomm.location.xml
+etc/permissions/izat.xt.srv.xml
+etc/permissions/privapp-permissions-com.qualcomm.location.xml
+framework/com.qti.location.sdk.jar
+framework/izat.xt.srv.jar
+lib64/liblocationservice_jni.so
+lib64/libxt_native.so
+lib64/vendor.qti.gnss@1.0.so
+vendor/bin/DR_AP_Service
+vendor/bin/garden_app
+vendor/bin/hw/vendor.qti.gnss@1.1-service
+vendor/bin/loc_launcher
+vendor/bin/lowi-server
+vendor/bin/slim_daemon
+vendor/bin/xtra-daemon
+vendor/bin/xtwifi-client
+vendor/bin/xtwifi-inet-agent
+vendor/etc/cacert_location.pem
+vendor/etc/init/vendor.qti.gnss@1.1-service.rc
+vendor/etc/xtra_root_cert.pem
+vendor/lib64/hw/vendor.qti.gnss@1.1-impl.so
+vendor/lib64/libDRPlugin.so
+vendor/lib64/lib_drplugin_server.so
+vendor/lib64/libalarmservice_jni.so
+vendor/lib64/libdataitems.so
+vendor/lib64/libdrplugin_client.so
+vendor/lib64/libevent_observer.so
+vendor/lib64/libflp.so
+vendor/lib64/libgdtap.so
+vendor/lib64/libgeofence.so
+vendor/lib64/libizat_client_api.so
+vendor/lib64/libizat_core.so
+vendor/lib64/liblbs_core.so
+vendor/lib64/libloc_ds_api.so
+vendor/lib64/libloc_externalDr.so
+vendor/lib64/liblocationservice.so
+vendor/lib64/liblocationservice_glue.so
+vendor/lib64/liblowi_client.so
+vendor/lib64/liblowi_wifihal.so
+vendor/lib64/libquipc_os_api.so
+vendor/lib64/libslimclient.so
+vendor/lib64/libulp2.so
+vendor/lib64/libxtadapter.so
+vendor/lib64/libxtwifi_ulp_adaptor.so
+vendor/lib64/vendor.qti.gnss@1.0_vendor.so
+vendor/lib64/vendor.qti.gnss@1.1_vendor.so
+
+# Graphics firmware
+vendor/firmware/a630_gmu.bin
+vendor/firmware/a630_sqe.fw
+vendor/firmware/a630_zap.b00
+vendor/firmware/a630_zap.b01
+vendor/firmware/a630_zap.b02
+vendor/firmware/a630_zap.elf
+vendor/firmware/a630_zap.mdt
+
+# Logic volume
+vendor/bin/dm-tool
+vendor/bin/logic_volume
+vendor/etc/init/logic_volume.rc
+vendor/etc/logic_volume.conf
+
+# Media firmware
+vendor/firmware/debussy.bin
+
+# NFC firmware
+vendor/firmware/libpn553_fw.so
+
+# Peripheral manager
+vendor/bin/pm-proxy
+vendor/bin/pm-service
+vendor/lib/libperipheral_client.so
+vendor/lib64/libperipheral_client.so
+
+# Sensors
+vendor/etc/sensors/hals.conf
+vendor/lib/sensors.ssc.so
+vendor/lib64/sensors.ssc.so
+
+# Thermal
+vendor/etc/thermal-engine.conf
+
+# Wi-Fi
+vendor/bin/cnss-daemon
+vendor/bin/cnss_diag
