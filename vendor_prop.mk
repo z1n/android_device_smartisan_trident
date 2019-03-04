@@ -39,7 +39,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     qcom.bluetooth.soc=cherokee \
+    vendor.bluetooth.soc=cherokee \
     persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd \
+    persist.vendor.btstack.a2dp_offload_cap=aptx-aptxtws-aptxhd \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
